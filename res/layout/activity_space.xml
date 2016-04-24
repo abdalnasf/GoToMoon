@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.ema.spaceapp.Space">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/levelname"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:typeface="serif"
+            android:gravity="center"
+            android:text="@string/mission"
+            />
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/profile"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight=".5"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/stories"
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/stories"/>
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="2.5"
+                android:layout_height="match_parent"
+                 />
+            <ImageButton
+                android:id="@+id/gallery"
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/gallarys"/>
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="2.5"
+                android:layout_height="match_parent"
+                />
+            <ImageButton
+                android:id="@+id/test"
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/test"/>
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight=".5"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/funfactt"
+                android:layout_width="0px"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/funfacts"/>
+            <TextView
+                android:layout_width="0px"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- Past Phase
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/fav"
+                android:layout_width="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/Downie"/>
+            <ImageButton
+                android:id="@+id/stories"
+                android:layout_width="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/PanoramaSticher"/>
+            <ImageButton
+                android:id="@+id/galary"
+                android:layout_width="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/Filehippo"/>
+            <ImageButton
+                android:id="@+id/funfact"
+                android:layout_width="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/MusicBrainz"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_widtatch_parent"
+            android:layout_height="0"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            >
+            <!-
+            <ImageButton
+                android:id="@+id/moon"
+                android:layout_width="0"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/m2"/>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+            <TextView
+                android:id="@+id/phase"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0"
+                android:typeface="serif"
+                android:gravity="center"
+                android:text="@string/phase"
+                />
+            <TextView
+
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:typeface="serif"
+            android:layout_height="0"
+            android:gravity="center"
+            android:text="@string/Destination"
+            />
+
+</LinearLayout>
+    -->
+
+</LinearLayout>

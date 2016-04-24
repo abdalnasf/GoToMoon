@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SpaceApp</string>
+
+    <string name="favhead">Favorites</string>
+    <string name="factfav">Facts</string>
+    <string name="factfav1">Fact #1</string>
+    <string name="factfav2">Fact #2</string>
+    <string name="storyfav">Stories</string>
+    <string name="storyfav1">story #1</string>
+    <string name="storyfav2">story #2</string>
+    <string name="imagefav">Images</string>
+    <string name="imagefav1">Image #1</string>
+    <string name="imagefav2">Image #2</string>
+
+    <string name="facthead">Fact #1</string>
+    <string name="factread">fact fact fact fact fact fact fact fact </string>
+
+    <string name="Galleryhead">Gallery</string>
+
+    <string name="phase">Phases : </string>
+    <string name="Destination">Destination : </string>
+
+    <string name="mission">Mission #1 </string>
+
+</resources>
